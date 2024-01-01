@@ -228,14 +228,14 @@ ol:not([class]) ul {
       display: inline-block;
       vertical-align: top;
       letter-spacing: -.015em; }
-    .list li i, .list li .woox-icon {
+    .list li i, .list li .betf-icon {
       display: inline-block;
       vertical-align: top;
       margin-right: 15px;
       font-weight: 900;
       font-size: 12px; }
 
-.list--primary i, .list--primary .woox-icon {
+.list--primary i, .list--primary .betf-icon {
   color: #ffba00;
   fill: #ffba00;
   height: 19px;
@@ -251,7 +251,7 @@ ol:not([class]) ul {
   font-size: inherit;
   margin-right: 6px; }
 
-.list--round li i, .list--round li .woox-icon {
+.list--round li i, .list--round li .betf-icon {
   margin-right: 25px;
   width: 12px;
   height: 12px;
@@ -455,7 +455,7 @@ blockquote {
       left: 30px; }
   .list {
     padding-left: 0; }
-  .list--round li .woox-icon,
+  .list--round li .betf-icon,
   .list--round li i {
     margin-right: 10px; } }
 
@@ -470,7 +470,7 @@ blockquote {
     padding-left: 30px; }
   ol ol ol li {
     padding-left: 40px; }
-  .list--primary .woox-icon {
+  .list--primary .betf-icon {
     height: 11px;
     width: 11px; } }
 
@@ -1555,7 +1555,7 @@ body.crumina-grid .kc_col-of-5 {
   padding: 20px;
   background-color: rgba(255, 186, 0, 0.15);
   border-radius: 20px; }
-  .icon-demonstration .woox-icon {
+  .icon-demonstration .betf-icon {
     width: 60px;
     height: 60px;
     fill: #ffba00; }
@@ -2630,7 +2630,7 @@ textarea {
   align-items: center; }
   .site-logo img {
     margin-right: 13px; }
-  .site-logo .woox-icon {
+  .site-logo .betf-icon {
     width: 100px;
     fill: #fff; }
 
@@ -2911,7 +2911,7 @@ textarea {
   .site-logo img {
     margin-right: 8px;
     max-width: 40px; }
-  .site-logo .woox-icon {
+  .site-logo .betf-icon {
     width: 60px; } }
 
 @media (max-width: 768px) {
@@ -3204,7 +3204,7 @@ License: http://codecanyon.net/licenses
       border-bottom: 1px solid #3d4451; }
     .primary-menu-menu ul.sub-menu.sub-menu--with-icons li > a > span {
       margin-left: 4px; }
-    .primary-menu-menu ul.sub-menu.sub-menu--with-icons li .woox-icon {
+    .primary-menu-menu ul.sub-menu.sub-menu--with-icons li .betf-icon {
       width: 18px;
       height: 18px;
       margin-right: 13px; }
@@ -4398,7 +4398,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     border-color: #ffba00; }
-    .tabs--style-scaled > ul li:hover a .tab-thumb .woox-icon, .tabs--style-scaled > ul li.active a .tab-thumb .woox-icon {
+    .tabs--style-scaled > ul li:hover a .tab-thumb .betf-icon, .tabs--style-scaled > ul li.active a .tab-thumb .betf-icon {
       fill: #ffba00; }
   .tabs--style-scaled > ul li a {
     text-align: center;
@@ -4427,7 +4427,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
       position: relative;
       -webkit-transition: all .3s ease;
       transition: all .3s ease; }
-      .tabs--style-scaled > ul li a .tab-thumb .woox-icon {
+      .tabs--style-scaled > ul li a .tab-thumb .betf-icon {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -4461,7 +4461,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     margin-left: 10px; }
   .tab-content-title + .value-growth {
     margin-left: 50px; }
-  .tab-content-title .woox-icon {
+  .tab-content-title .betf-icon {
     width: 30px;
     height: 30px;
     margin-left: 30px;
@@ -4524,9 +4524,9 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
   color: rgba(255, 186, 0, 0.7); }
   .action-link:hover {
     color: #ffba00; }
-    .action-link:hover .woox-icon {
+    .action-link:hover .betf-icon {
       fill: #ffba00; }
-  .action-link .woox-icon {
+  .action-link .betf-icon {
     fill: rgba(255, 186, 0, 0.7);
     width: 12px;
     height: 12px;
@@ -4540,7 +4540,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     max-width: 90px;
     max-height: 90px;
     border-width: 5px; }
-  .tabs--style-scaled > ul li a .tab-thumb .woox-icon {
+  .tabs--style-scaled > ul li a .tab-thumb .betf-icon {
     width: 50px;
     height: 50px;
     max-width: 50px;
@@ -4655,7 +4655,7 @@ nav li.menu-item-has-mega-menu ul.mega-menu-row li {
     height: 60px;
     max-width: 60px;
     max-height: 60px; }
-  .tabs--style-scaled > ul li a .tab-thumb .woox-icon {
+  .tabs--style-scaled > ul li a .tab-thumb .betf-icon {
     width: 30px;
     height: 30px;
     max-width: 30px;

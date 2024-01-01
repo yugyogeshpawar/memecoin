@@ -15,7 +15,7 @@ var CRUMINA = {};
   function m(t) {
     return t.id
       ? e(
-          '<span ><img class="woox-icon" sytle="display: inline-block;" src="img/' +
+          '<span ><img class="betf-icon" sytle="display: inline-block;" src="img/' +
             t.element.value.toLowerCase() +
             '.png" /> ' +
             t.text +
@@ -402,7 +402,7 @@ var CRUMINA = {};
       });
     }),
     (CRUMINA.select2Init = function () {
-      e(".woox--select").select2();
+      e(".betf--select").select2();
     }),
     (CRUMINA.select2LS = function () {
       var t = e(".language-switcher");
@@ -511,7 +511,7 @@ var CRUMINA = {};
         i = [
           { name: "MarketCap", color: "#3a3e48" },
           { name: "Ethereum", color: "#2a2e36" },
-          { name: "WOOX", color: "#ffba00" },
+          { name: "betf", color: "#ffba00" },
         ];
       (CRUMINA.elementChart = function () {
         setTimeout(function () {

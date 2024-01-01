@@ -1458,7 +1458,7 @@ button.swiper-pagination-bullet {
 .has-datepicker {
   position: relative;
   z-index: 19; }
-  .has-datepicker.is-focused .woox-icon, .has-datepicker:active .woox-icon {
+  .has-datepicker.is-focused .betf-icon, .has-datepicker:active .betf-icon {
     color: #ffba00;
     fill: #ffba00; }
 
@@ -1471,7 +1471,7 @@ button.swiper-pagination-bullet {
   transform: translate(0, -50%);
   height: 24px;
   width: 24px; }
-  .datepicker-icons .woox-icon {
+  .datepicker-icons .betf-icon {
     font-size: 24px;
     height: 24px;
     width: 24px;
@@ -1521,8 +1521,8 @@ button.swiper-pagination-bullet {
     transition: all .3s ease;
     height: 100%;
     line-height: 2; }
-    .datepicker .next p .woox-icon,
-    .datepicker .prev p .woox-icon {
+    .datepicker .next p .betf-icon,
+    .datepicker .prev p .betf-icon {
       position: relative;
       width: 13px;
       height: 13px;
@@ -1549,11 +1549,11 @@ button.swiper-pagination-bullet {
   color: #666d7a; }
   .datepicker--dark .datepicker:focus {
     color: #c3c9d4; }
-    .datepicker--dark .datepicker:focus + .datepicker-icons .woox-icon {
+    .datepicker--dark .datepicker:focus + .datepicker-icons .betf-icon {
       color: #ffba00;
       fill: #ffba00; }
 
-.datepicker--dark .datepicker-icons .woox-icon {
+.datepicker--dark .datepicker-icons .betf-icon {
   color: #666d7a;
   fill: #666d7a; }
 
@@ -1588,7 +1588,7 @@ button.swiper-pagination-bullet {
 .datepicker--squared.is-focused .datepicker, .datepicker--squared:active .datepicker {
   border-radius: 7px 7px 0 0; }
 
-.datepicker--squared.is-focused .woox-icon, .datepicker--squared:active .woox-icon {
+.datepicker--squared.is-focused .betf-icon, .datepicker--squared:active .betf-icon {
   color: #ffba00;
   fill: #ffba00; }
 
@@ -1600,7 +1600,7 @@ button.swiper-pagination-bullet {
   background-color: transparent;
   border: 3px solid #22252c; }
 
-.datepicker--squared.datepicker--dark .datepicker-icons .woox-icon {
+.datepicker--squared.datepicker--dark .datepicker-icons .betf-icon {
   color: #3d434f;
   fill: #3d434f; }
 
