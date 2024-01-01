@@ -5363,3 +5363,8 @@ img.mfp-img {
     opacity: 1; } }
 
 /*# sourceMappingURL=maps/theme-styles.css.map */
+
+
+.primary-menu-menu li{
+ cursor: pointer;
+}
