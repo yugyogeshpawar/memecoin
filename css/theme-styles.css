@@ -1285,6 +1285,17 @@ body.crumina-grid .kc_col-of-5 {
 .f-size-14 {
   font-size: 14px; }
 
+
+  .f-size-50 {
+    font-size: 45px; }
+    @media (max-width: 768px) {
+      .f-size-90 {
+        font-size: 50px; } }
+    @media (max-width: 540px) {
+      .f-size-90 {
+        font-size: 26px; } }
+  
+
 .f-size-90 {
   font-size: 90px; }
   @media (max-width: 768px) {
