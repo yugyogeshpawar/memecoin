@@ -22,6 +22,8 @@
 	<meta name="theme-color" content="#ffffff">
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js'></script>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap">
 
 
 	<script>
@@ -32,7 +34,7 @@
 			var myDoughnutChart = new Chart(ctx, {
 				type: 'doughnut',
 				data: {
-					labels: ["Liquidity", "Blackrock ETF", "Development & Marketing", "Team", "NFT & Rewards", "Airdrop", "Early Adopters"],
+					labels: ["Liquidity 40%", "Blackrock ETF 17%", "Development & Marketing 19%", "Team 1%", "NFT & Rewards 15%", "Airdrop 5%", "Early Adopters 3%"],
 					datasets: [{
 						data: [40, 17, 19, 1, 15, 5, 3],
 						backgroundColor: ["#FF5733", "#33FF57", "#8033FF", "#3380FF", "#FF33B3", "#FFB333", "#B3FF33"],
@@ -59,6 +61,7 @@
 					},
 					tooltips: {
 						enabled: true,
+						mode: 'single',
 						callbacks: {
 							label: function (tooltipItem, data) {
 								var dataset = data.datasets[tooltipItem.datasetIndex];
@@ -70,15 +73,17 @@
 								return data.labels[tooltipItem.index] + ": " + currentValue + " (" + percentage + ")";
 							}
 						},
-						backgroundColor: '#fff',
-						titleFontSize: 16,
-						titleFontColor: '#333',
-						bodyFontColor: '#333',
+					},
+					plugins: {
+						datalabels: {
+							display: false,
+						},
 					},
 				}
 			});
 		});
 	</script>
+
 
 
 
@@ -412,106 +417,6 @@
 							</div>
 						</li>
 
-						<li class="menu-item-has-mega-menu menu-item-has-children">
-							<a href="#">Pages</a>
-							<div class="megamenu">
-								<div class="megamenu-row">
-
-									<div class="col4">
-										<ul>
-											<li class="megamenu-item-info">
-												<h5 class="megamenu-item-info-title">Standard Pages</h5>
-											</li>
-											<li>
-												<a href="009_news.html">News Page</a>
-											</li>
-											<li>
-												<a href="010_news_details.html">News Details</a>
-											</li>
-											<li>
-												<a href="012_page_not_found.html">Not Found</a>
-											</li>
-											<li>
-												<a href="028_typography.html">Typography</a>
-											</li>
-											<li>
-												<a href="030_icons.html">Icons</a>
-											</li>
-
-										</ul>
-									</div>
-									<div class="col4">
-										<ul>
-											<li class="megamenu-item-info">
-												<h5 class="megamenu-item-info-title">Elements</h5>
-											</li>
-											<li>
-												<a href="013_pricing_tables.html">Pricing Tables</a>
-											</li>
-											<li>
-												<a href="014_forms.html">Forms</a>
-											</li>
-											<li>
-												<a href="015_quotes.html">Quotes</a>
-											</li>
-											<li>
-												<a href="016_testimonial_styles.html">Testimonials</a>
-											</li>
-											<li>
-												<a href="017_tabs.html">Tabs</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col4">
-										<ul>
-											<li class="megamenu-item-info">
-												<h5 class="megamenu-item-info-title">Elements</h5>
-											</li>
-											<li>
-												<a href="018_tables.html">Tables</a>
-											</li>
-											<li>
-												<a href="019_expert_hover_effects.html">Experts</a>
-											</li>
-											<li>
-												<a href="029_colors.html">Colors</a>
-											</li>
-											<li>
-												<a href="021_benefits.html">Benefits</a>
-											</li>
-											<li>
-												<a href="022_accordion_toggle.html">Accordions</a>
-											</li>
-										</ul>
-									</div>
-
-									<div class="col4">
-										<ul>
-											<li class="megamenu-item-info">
-												<h5 class="megamenu-item-info-title">Elements</h5>
-											</li>
-											<li>
-												<a href="023_alerts_message.html">Alerts</a>
-											</li>
-											<li>
-												<a href="024_progress_bars.html">Progress bars</a>
-											</li>
-											<li>
-												<a href="025_button_styles.html">Buttons</a>
-											</li>
-											<li>
-												<a href="026_counters_and_timers.html">Counters</a>
-											</li>
-											<li>
-												<a href="027_headings.html">Headings</a>
-											</li>
-										</ul>
-									</div>
-
-								</div>
-							</div>
-						</li>
-
 						<li class="">
 							<a href="011_contacts.html">Contacts</a>
 						</li>
@@ -577,7 +482,7 @@
 
 							<!-- End Google Tag Manager -->
 							<h1 class="heading-title f-size-50 weight-normal no-margin">Welcome to <br> <span
-									class="weight-bold"> BlackRock Bitcoin ETF</span>
+									class="weight-bold"> Spot Bitcoin ETF</span>
 							</h1>
 							<h2 class="c-primary">The Digital Gold (the meme-killer Token).
 							</h2>
@@ -840,10 +745,10 @@
 							<!-- Google Tag Manager -->
 
 							<!-- End Google Tag Manager -->
-							<h2 class="heading-title weight-normal">Life in the
-								<span class="weight-bold">digital world</span>
+							<h2 class="heading-title weight-normal">Invest in the Future.
+								<span class="weight-bold">Invest in SBETF.</span>
 							</h2>
-							<div class="heading-text">Blockchain Technology</div>
+							<div class="heading-text">Spot Bitcoin ETF</div>
 						</header>
 
 						<div class="counters">
@@ -908,28 +813,39 @@
 		<section class="crumina-module crumina-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
 						<div class="crumina-module crumina-heading heading--h2 heading--with-decoration">
-							<h2 class="heading-title weight-normal">Tokenmonics
+							<div class="heading-sup-title">Tokenomics</div>
+							<h2 class="heading-title weight-normal">The
+								<span class="weight-bold">tokenomics</span>
 							</h2>
+							<p class="heading-text">The tokenomics</p>
+							<p class="text">
+								SBETF believes in transparent transactions. There are zero taxes when buying SBETF
+								tokens, and a nominal 0.5% tax is applied when selling, ensuring a fair and accessible
+								market for all.
+							</p>
+							<p>Join us on this exciting journey, Be part of the Memecoin revolution that is not just
+								about memes but a community-driven force with real-world utility.
+							</p>
+						</div>
+
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+						<div class="crumina-module crumina-heading heading--h2 heading--with-decoration">
 
 							<div class="page-content page-container" id="page-content">
-								<div class="padding">
-									<div class="row">
-										<div class="container-fluid d-flex justify-content-center">
-											<div class="col-sm-8 col-md-6">
-												<div class="card">
-													<div class="card-body" style="height: 420px">
-														<canvas id="chart-line" width="400" height="300"
-															class="chartjs-render-monitor canvas-doughnut"></canvas>
-													</div>
-												</div>
+								<div class="container-fluid d-flex justify-content-center">
+									<div class="col-sm-12 col-md-12">
+										<div class="card">
+											<div class="card-body" style="height: 420px">
+												<canvas id="chart-line" width="400" height="300"
+													class="chartjs-render-monitor canvas-doughnut"></canvas>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -952,12 +868,9 @@
 							<img style="max-width: 50px;" src="img/logo-primary.png" alt="Spot BETF">
 							<span class="logo-text">Spot Bitcoin ETF</span>
 						</a>
-						<p>As the Bitcoin ETF saga hits a possible homestretch, we're thrilled to
-							introduce Blackrock
-							Bitcoin ETF (BBTF) - the world's first Meme-utility. With the SEC poised
-							to make historic
-							decisions, BBTF is designed to capture the essence of the crypto world's
-							excitement and
+						<p>As the Bitcoin ETF saga hits a possible homestretch, we're thrilled to introduce Blackrock
+							Bitcoin ETF (SBETF) - the world's first Meme-utility. With the SEC poised to make historic
+							decisions, SBETF is designed to capture the essence of the crypto world's excitement and
 							combine it with real-world utility.</p>
 					</div>
 
@@ -996,6 +909,7 @@
 					</div>
 
 				</div>
+
 			</div>
 		</div>
 
