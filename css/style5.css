@@ -288,9 +288,9 @@
 }
 .roadmap-content {
   position: relative;
-  margin-left: 57px;
+  /* margin-left: 57px; */
   padding-left: 17px;
-  padding-top: 110px;
+  padding-top: 80px;
 }
 .roadmap-content::before {
   content: "";
@@ -359,21 +359,8 @@
 .bt-roadmap-item:nth-child(4) .dot::before {
   background: #5dd400;
 }
-.bt-roadmap-item:nth-child(5) .roadmap-content::before,
-.bt-roadmap-item:nth-child(5) .dot,
-.bt-roadmap-item:nth-child(5) .dot::before {
-  background: #007ff4;
-}
-.bt-roadmap-item:nth-child(6) .roadmap-content::before,
-.bt-roadmap-item:nth-child(6) .dot,
-.bt-roadmap-item:nth-child(6) .dot::before {
-  background: #ff9700;
-}
-.bt-roadmap-item:nth-child(7) .roadmap-content::before,
-.bt-roadmap-item:nth-child(7) .dot,
-.bt-roadmap-item:nth-child(7) .dot::before {
-  background: #ff4581;
-}
+
+
 .bt-roadmap-item:nth-child(2) .roadmap-title {
   color: #ff4581;
 }
@@ -383,15 +370,8 @@
 .bt-roadmap-item:nth-child(4) .roadmap-title {
   color: #5dd400;
 }
-.bt-roadmap-item:nth-child(5) .roadmap-title {
-  color: #007ff4;
-}
-.bt-roadmap-item:nth-child(6) .roadmap-title {
-  color: #ff9700;
-}
-.bt-roadmap-item:nth-child(7) .roadmap-title {
-  color: #ff4581;
-}
+
+
 
 /* roadmap-two */
 .roadmap-wrap-two {
@@ -597,10 +577,10 @@
 
 .bt-roadmap-wrap {
     display: flex;
-    padding: 0;
+    padding-left: 10px;
     min-height: 490px;
     margin: 10px 0 0;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   
   .bt-roadmap-item {
@@ -625,14 +605,14 @@
     color: #a4b4c3;
   }
   .bt-roadmap-item:nth-child(even) .roadmap-content {
-    padding: 0 0 110px 17px;
+    padding: 0 0 80px 17px;
   }
   .bt-roadmap-item:nth-child(even) .roadmap-content .dot {
     top: auto;
     bottom: 0;
   }
   .bt-roadmap-item:not(:first-child) {
-    margin-left: -155px;
+    margin-left: 0px;
   }
   .bt-roadmap-item:last-child {
     width: 280px;
@@ -742,7 +722,7 @@
     left: 0;
     top: calc(50% - 0px);
     transform: translateY(-50%);
-    width: 1670px;
+    width: 1410px;
     height: 8px;
     background: linear-gradient(294.72deg, #ff4581 9.05%, #4388dd 79.28%);
     opacity: 0.1;
