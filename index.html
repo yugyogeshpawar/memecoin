@@ -212,6 +212,70 @@
     transform: scale(1.1);
   }
 
+  
+  /* Add transitions to the main sections */
+.main-section,
+.medium-padding120,
+.bg-dotted-map,
+.crumina-section,
+.roadmap-area {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect on main sections */
+.main-section:hover,
+.medium-padding120:hover,
+.bg-dotted-map:hover,
+.crumina-section:hover,
+.roadmap-area:hover {
+    /* background-color: #f8f8f8; */
+    transform: scale(1.02);
+}
+
+/* Add transitions to the headings */
+.crumina-heading {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect on headings */
+.crumina-heading:hover {
+    /* color: #333; */
+    transform: translateY(-3px);
+}
+
+/* Add transitions to the buttons */
+.btn {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect on buttons */
+.btn:hover {
+    /* background-color: #3498db; */
+    transform: scale(1.05);
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Apply the animation to the heading */
+.crumina-heading {
+    animation: bounce 2s infinite;
+}
+
+/* Stop the animation on hover for a moment */
+.crumina-heading:hover {
+    animation: none;
+}
 
 
 	</style>
