@@ -50,7 +50,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
   };
 
   s.VERSION = "3.3.7";
-  s.TRANSITION_DURATION = 350;
+  s.TRANSITION_DURATION = 1000;
   s.DEFAULTS = {
     toggle: !0
   };
