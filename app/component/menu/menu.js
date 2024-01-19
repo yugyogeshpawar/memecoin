@@ -4,7 +4,7 @@ import Logo from "./logo";
 import Social from "./social";
 
 const menus = [
-  { name: "Home", link: "/index.html" },
+  { name: "Home", link: "/" },
   { name: "Whitepaper", link: "../whitepaper.pdf", target: "_blank"  },
 ];
 

@@ -4,7 +4,7 @@ function Homemenu({ url, title,target }) {
     console.log( url)
   return (
     <li>
-      <a href={url} target={target?target:`munna`}>{title}</a>
+      <a href={url} target={target === "_blank" ? "_blank" : "_self"}>{title}</a>
     </li>
   );
 }
