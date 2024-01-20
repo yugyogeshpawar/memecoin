@@ -3,6 +3,7 @@
 /*------------- #HEADING --------------*/
 .crumina-heading {
   position: relative;
+  font-family: "Comfortaa", Arial, "Helvetica Neue", Helvetica, sans-serif;
   z-index: 5;
   margin-bottom: 30px; }
   .crumina-heading > *:last-child {
@@ -82,6 +83,7 @@
   position: relative; }
 
 .heading-text {
+  font-family: "Comfortaa", Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin-top: 20px;
   color: #c3c9d4; }
 
@@ -2203,7 +2205,7 @@ table > tfoot > tr.danger > th {
   height: 80px; }
 
 .author-content {
-  font-family: Comfortaa, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Comfortaa", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-style: normal;
   line-height: 1.3; }
 
@@ -2808,7 +2810,7 @@ blockquote .primary-dots {
 
 /*------------- #QUOTE Style3 --------------*/
 .quote--style3 {
-  font-family: Comfortaa, Arial, "Helvetica Neue", Helvetica, serif, sans-serif;
+  font-family: "Comfortaa", Arial, "Helvetica Neue", Helvetica, serif, sans-serif;
   font-style: normal;
   padding: 60px 0;
   border-radius: 0; }

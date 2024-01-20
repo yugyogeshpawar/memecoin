@@ -16,7 +16,7 @@ function TokenomicsSection() {
                       The
                       <span className="weight-bold">tokenomics</span>
                     </h2>
-                    <p className="heading-text">The tokenomics</p>
+                    <p className=" heading-text">The tokenomics</p>
                     <p className="text">
                       SBETF believes in transparent transactions. There are zero
                       taxes when buying SBETF tokens, and a nominal 0.5% tax is

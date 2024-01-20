@@ -4,7 +4,7 @@ function RoadmapSection() {
   return (
     <div>
       <section id="roadmap" className="roadmap-area pt-130 pb-130">
-            <div className="container custom-container-two">
+            <div className="container crumina-heading custom-container-two">
               <div className="row justify-content-center">
                 <div className="col-xl-5 col-lg-8">
                   <div className="section-title text-center mb-60">
@@ -13,7 +13,7 @@ function RoadmapSection() {
                       Strategy and <br />
                       Project <span>Plan</span>
                     </h2>
-                  </div>
+                  </div>  
                 </div>
               </div>
               <div className="row">
