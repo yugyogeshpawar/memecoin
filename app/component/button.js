@@ -5,7 +5,7 @@ function Btn({name,url}) {
     <a
     data-scroll=""
     href={url}
-    className="btn btn--large btn--transparent btn--secondary"
+    className="btn btn--large btn--transparent btn--secondary crumina-heading"
   >
     {name}
   </a>
