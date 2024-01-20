@@ -1,4 +1,5 @@
 import React from 'react'
+import Btn from '../component/button'
 
 function DetailSection() {
   return (
@@ -28,13 +29,7 @@ function DetailSection() {
                       The Digital Gold (the meme-tility Token).
                     </h2>
                   </header>
-                  <a
-                    data-scroll=""
-                    href="#details"
-                    className="btn btn--large btn--transparent btn--secondary"
-                  >
-                    Details
-                  </a>
+                  <Btn name={"Details"} url={"/"} />
                 </div>
               </div>
             </div>
