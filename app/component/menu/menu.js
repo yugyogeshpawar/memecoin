@@ -41,9 +41,9 @@ function Menu() {
               </a>
               <ul className="primary-menu-menu">
                 {menus.map((item, index) => (
-                  <Homemenu key={index} url={item.link} title={item.name} target={item.target ? item.target: "munna"}/>
+                  <Homemenu key={index} url={item.link} title={item.name} target={item.target}/>
                 ))}
-
+                
                 </ul>
             </nav>
 
