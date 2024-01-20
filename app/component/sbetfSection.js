@@ -1,4 +1,5 @@
 import React from 'react'
+import Btn from './button'
 
 function SbetfSection() {
   return (
@@ -185,14 +186,7 @@ function SbetfSection() {
 							tokens for and the current staking APR.
 						</p> */}
                     <div className=" mt60">
-                      <a
-                        href="#"
-                        className="btn btn--market btn--apple btn--with-icon btn--icon-left"
-                      >
-                        <div className="text">
-                          <span className="title">More Info</span>
-                        </div>
-                      </a>
+                      <Btn name={"More Info"} url={"/"} />
                     </div>
                   </header>
                 </div>
