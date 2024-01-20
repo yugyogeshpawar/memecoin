@@ -133,7 +133,7 @@ function SbetfSection() {
                         <li className="accordion-panel">
                           <div className="panel-heading">
                             <a
-                              href="#toggleSample6"
+                              href="#toggleThree6"
                               className="accordion-heading collapsed"
                               data-toggle="collapse"
                               data-parent="#accordion"
@@ -148,8 +148,8 @@ function SbetfSection() {
                             </a>
                           </div>
                           <div
-                            id="toggleSample6"
-                            className="panel-collapse collapse in"
+                            id="toggleThree6"
+                            className="panel-collapse collapse"
                             aria-expanded="false"
                             role="tree"
                           >
