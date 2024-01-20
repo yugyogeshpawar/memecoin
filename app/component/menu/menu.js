@@ -43,7 +43,7 @@ function Menu() {
                 {menus.map((item, index) => (
                   <Homemenu key={index} url={item.link} title={item.name} target={item.target}/>
                 ))}
-                
+
                 </ul>
             </nav>
 
